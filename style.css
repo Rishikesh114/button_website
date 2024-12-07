@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+
+
+header {
+  background-color: black;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+main {
+  padding: 1em;
+}
+.para{
+    text-align: center;
+    color: white;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Make the button inline */
+    font-size: 16px; /* Increase font size */
+    margin: 20px auto; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition for smooth animation */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+      transform: scale(1.1); /* Slightly increase the size of the button */
+  }
